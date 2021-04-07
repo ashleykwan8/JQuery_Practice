@@ -7,3 +7,7 @@ body{
     color: yellow;
     font-family: cursive;
 }
+
+.margin-50{
+    margin: 50px;
+}
