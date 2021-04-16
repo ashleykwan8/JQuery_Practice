@@ -27,8 +27,19 @@ $("button").click(function() {
     $("h1").css("color", "red");
 })
 
+// shows the event.key (log which key is pressed)
 $("input").keypress(function(event) {
     console.log(event.key);
+});
+
+// updates the h1 to the key press
+$(document).keypress(function(event) {
+    $("h1").text(event.key);
+}); 
+
+// add mouseover event
+$("h1").on("mouseover", function() {
+    $("h1").css("color", "blue");
 })
 
 
