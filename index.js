@@ -17,6 +17,16 @@ $("h1").addClass("big-title margin-50");
 // effects the innerhtml
 // $("button").html("<strong>Hi</strong>");
 
+// change the color of the h1 with event listener "click"
+$("h1").click(function() {
+    $("h1").css("color", "white");
+});
+
+// select the "button" class and add event listener 
+$("button").click(function() {
+    $("h1").css("color", "red");
+})
+
 
 
 
