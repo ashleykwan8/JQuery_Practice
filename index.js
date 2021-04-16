@@ -27,6 +27,10 @@ $("button").click(function() {
     $("h1").css("color", "red");
 })
 
+$("input").keypress(function(event) {
+    console.log(event.key);
+})
+
 
 
 
