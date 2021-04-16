@@ -23,27 +23,58 @@ $("h1").click(function() {
 });
 
 // select the "button" class and add event listener 
-$("button").click(function() {
-    $("h1").css("color", "red");
-})
+// $("button").click(function() {
+//     $("h1").css("color", "red");
+// })
 
-// shows the event.key (log which key is pressed)
-$("input").keypress(function(event) {
-    console.log(event.key);
+// // shows the event.key (log which key is pressed)
+// $("input").keypress(function(event) {
+//     console.log(event.key);
+// });
+
+// // updates the h1 to the key press
+// $(document).keypress(function(event) {
+//     $("h1").text(event.key);
+// }); 
+
+// // add mouseover event
+// $("h1").on("mouseover", function() {
+//     $("h1").css("color", "blue");
+// })
+
+// hide the selected elements; on button click it'll hide the h1 element
+// $("button").on("click", function() {
+//     $("h1").hide();
+// });
+
+// make the element reappear
+// $("button").on("click", function() {
+//     $("h1").show();
+// });
+
+// toggle between hide() and show()
+// $("button").on("click", function() {
+//     $("h1").toggle();
+// });
+
+// fading effect when hiding
+// $("button").on("click", function() {
+//     $("h1").fade();
+// });
+
+// collapse the element (good for dropdown menu)
+// $("button").on("click", function() {
+//     $("h1").slideUp();
+// });
+
+// add custom animation
+// add CSS rules that are only numeric value
+// $("button").on("click", function() {
+//     $("h1").animate({margin:20});
+// });
+
+// chain animations together
+$("button").on("click", function() {
+    $("h1").slideUp().slideDown().animate({margin:20});
 });
-
-// updates the h1 to the key press
-$(document).keypress(function(event) {
-    $("h1").text(event.key);
-}); 
-
-// add mouseover event
-$("h1").on("mouseover", function() {
-    $("h1").css("color", "blue");
-})
-
-
-
-
-
 
