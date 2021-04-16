@@ -1,7 +1,7 @@
 // jQuery for selecting h1 and changing the css color property to red
 // $("h1").css("color", "white");
 
-// this will select all the buttons on the HTNL
+// this will select all the buttons on the HTML
 $("button");
 
 // TODO: Keep CSS only to style 
@@ -11,4 +11,10 @@ $("button");
 $("h1").addClass("big-title margin-50");
 // removes the class from h1
 // $("h1").removeClass("big-title");
+
+// pure text
+$("h1").text("Goodbye");
+// effects the innerhtml
+$("button").html("<strong>Hi</strong>");
+
 
