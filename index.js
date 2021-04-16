@@ -13,8 +13,12 @@ $("h1").addClass("big-title margin-50");
 // $("h1").removeClass("big-title");
 
 // pure text
-$("h1").text("Goodbye");
+// $("h1").text("Goodbye");
 // effects the innerhtml
-$("button").html("<strong>Hi</strong>");
+// $("button").html("<strong>Hi</strong>");
+
+
+
+
 
 
