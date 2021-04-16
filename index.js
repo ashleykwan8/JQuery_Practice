@@ -8,6 +8,7 @@ $("button");
 
 
 // added the class to the h1 tag and changed the behavior of the styling
-$("h1").addClass("big-title");
+$("h1").addClass("big-title margin-50");
 // removes the class from h1
-$("h1").removeClass("big-title");
+// $("h1").removeClass("big-title");
+
